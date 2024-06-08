@@ -1,0 +1,50 @@
+.sql__scanner {
+  display: flex;
+  /* background-color: var(--color-box); */
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 19rem; */
+  position: relative;
+}
+
+.sql__scanner-content {
+  height: 20rem;
+  width: 100rem;
+  background-color: var(--color-box2);
+}
+
+.sql__scanner-header {
+  padding: 10rem;
+}
+
+.sql__scanner-header p {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.sql__scanner-input-link {
+  position: absolute;
+  bottom: 3rem;
+  left: 10rem;
+  width: 18rem;
+}
+
+.sql__scanner-input-button {
+  position: absolute;
+  bottom: 3rem;
+  left: 28rem;
+  height: 18px;
+  width: 5rem;
+  background-color: var(--color-box);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sql__scanner-input-button:hover {
+  background-color: var(--color-bg);
+  color: var(--color-box);
+}

@@ -1,0 +1,95 @@
+.sql__header {
+  display: flex;
+  /* background-color: var(--color-box); */
+  align-items: center;
+  justify-content: space-between;
+  padding: 14rem;
+  position: relative;
+}
+
+.sql__header-content {
+  align-items: center;
+  /* position: absolute; */
+}
+.sql__header-content_ai {
+  position: absolute;
+  top: 10rem;
+  left: 34rem;
+}
+
+.sql__header-img {
+  margin: 1.5rem;
+  padding-right: 15rem;
+  position: relative;
+}
+
+.sql__header-img img {
+  /* width: 60px; */
+  height: 120px;
+  position: absolute;
+  left: 25rem;
+  bottom: -1rem;
+}
+
+.sql-scanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.sql {
+  font-size: 4rem;
+  font-weight: bold;
+  position: absolute;
+  top: -50px;
+  right: -8rem;
+}
+
+.scanner {
+  font-size: 4rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: -80px;
+  left: 25rem;
+}
+
+.sql__header-block {
+  background-color: var(--color-box);
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  left: 17rem;
+  top: 2rem;
+}
+
+.additional-text {
+  position: absolute;
+  top: 50%;
+  right: 500px; /* Adjust position as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.injection {
+  font-size: 1.2rem;
+  background: #f8f8f8; /* Adjust background color as needed */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.year {
+  font-size: 1.5rem;
+  margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: #999;
+}

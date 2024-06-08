@@ -1,0 +1,129 @@
+.sql__navbar {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4 6rem;
+}
+
+.sql__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sql__navbar-links-logo {
+  margin: 1.5rem;
+  padding-right: 15rem;
+}
+
+.sql__navbar-links-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.sql__navbar-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sql__navbar-links-container p,
+.ql__navbar-sign p,
+.sql__navbar-links-menu_container p {
+  color: #000;
+  /* font-family: ; */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.sql__navbar-sign button,
+.sql__navbar-menu-container {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-box2);
+  color: #fff;
+  /* font-family: ; */
+  font-weight: 500;
+  line-height: 25px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.signing_p {
+  background-color: #000;
+}
+
+.sql__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.sql__navbar-menu svg {
+  cursor: pointer;
+}
+
+.sql__navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  position: absolute;
+  background: var(--color-box2);
+  padding: 2rem;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgb(0, 0, 0, 0.2);
+}
+
+.sql__navbar-menu-container p {
+  margin: 1rem 0;
+}
+
+.sql__navbar-menu-container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .sql__navbar-menu-container {
+    display: none;
+  }
+
+  .sql__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sql__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sql__navbar {
+    padding: 2rem;
+  }
+
+  .sql__navbar-sign {
+    display: none;
+  }
+
+  .sql__navbar-menu-container {
+    top: 20px;
+  }
+
+  .sql__navbar-menu-container-links-sign {
+    display: block;
+  }
+}
